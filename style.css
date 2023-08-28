@@ -1,0 +1,51 @@
+/* this is proof i have an idea about how to comment out text in a style sheet */
+/* CSS */
+p {
+    color: #f8f5f5;
+    background-color: black;
+  }
+  .intro {
+    color:rgb(247, 240, 240);
+    background-color:#a31919;
+  }
+  .hook { color:#f8f5f5;
+           background-color: blue;
+           
+  } 
+
+.spanstyle {font-size: large
+ }
+  body {background-color: rgb(224, 211, 211);
+
+  }
+
+  #wrapper {width: 960px;
+            border: 10px solid red;
+            margin: 1em auto; 
+            display:grid;
+            background-color: #f8f5f5;
+            padding: 4em; 
+  }
+
+  a { color:khaki
+
+  }
+  
+  a:link {
+    color:deeppink
+  }
+
+  a:visited {
+    color:blue
+  }
+
+  a:active {
+    color:forestgreen
+  }
+
+  a:hover {
+    color:rgb(255, 196, 47)
+  }
+
+  header {text-align: center;}
+  

@@ -28,13 +28,13 @@
 
   #Circle{
     opacity: 1;
-    animation: fadeInOut 4s linear 1 forwards;
+    animation: fadeInOut 4s linear forwards;
     animation-iteration-count:  infinite;
     animation-fill-mode: both;
 
   }
 
-  @keyframe fadeInOutAnimation {
+  @keyframes fadeInOut {
     0% { opacity: 1; }
     50% { opacity: 0; }
     100% { opacity: 1; }

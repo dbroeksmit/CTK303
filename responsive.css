@@ -1,0 +1,42 @@
+
+.image img {
+width: 100%;
+margin-bottom: 1rem; }
+
+
+
+main {        }
+
+article {         }
+
+nav a {
+	color: rgb(63, 239, 239);
+	font-family: Graduate, Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+	text-transform: uppercase;
+	border: 5px solid #999;
+	background-color: #eee;
+	border-radius: .5em;
+	padding: 3em;
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  @media all and (min-width: 30rem){
+    h1 { color: red; padding-bottom: .1rem; }
+    #image { width: 70%; float: right; }
+    nav { width: 100%; grid-template-columns: 1fr 1fr; }
+    nav a { margin-right: 1rem; }
+  }      
+
+  @media all and (min-width: 50rem){
+    h1 { color: red; padding-bottom: .1rem; }
+    #image { width: 70%; float: right; }
+    nav { width: 100%; grid-template-columns:repeat(4,1fr) ; }
+    nav a { margin-right: 1rem; display:block;padding:3px;  }
+  }    
